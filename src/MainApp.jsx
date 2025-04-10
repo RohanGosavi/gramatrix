@@ -191,7 +191,7 @@ const App = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.4 }}
         >
-          <h2 className="font-bold text-lg mb-2 text-white/80">They Said:</h2>
+          <h2 className="font-bold text-lg mb-2 text-white/80">They test Said:</h2>
           <p className="text-base leading-relaxed">{spokenText}</p>
         </motion.div>
       )}
