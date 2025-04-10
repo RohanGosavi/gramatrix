@@ -76,7 +76,9 @@ const App = () => {
 
       const result = response.data.candidates[0].content.parts[0].text;
       const cleanedResult = result.split('**')[1] || result;
-      setSignLang(cleanedResult.trim());
+      setSignLang(cleanedResult.trim().toLowerCase());
+
+
 
       const grammarWords = cleanedResult.trim().toLowerCase().split(' ');
       const videoList = grammarWords.map((word) => getVideoForGesture(word));
