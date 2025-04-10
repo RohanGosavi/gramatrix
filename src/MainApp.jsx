@@ -223,7 +223,7 @@ const App = () => {
                   loop={false}
                   muted
                   autoPlay
-                  className="w-1/2 h-auto rounded-lg shadow-md"
+                  className="w-[75%] h-auto rounded-lg shadow-md"
                   onEnded={handleVideoEnd}
                 >
                   <source src={videos[currentVideoIndex]} type="video/mp4" />
